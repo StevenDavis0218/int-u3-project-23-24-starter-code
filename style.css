@@ -1,13 +1,19 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
+
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
-.option-two-end  {
+.option-two-end,
+.road-stranger-option-one,
+.road-stranger-option-two,
+.option-one1,
+.option-two1,
+.option-one2,
+.option-two2{
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -27,15 +33,16 @@ body {
 
 /* Style the title of your story */
 .title {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: lightblue;
 }
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: grey;
+    border: 10px solid lightblue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -50,7 +57,7 @@ body {
 
 /* Style the story opening message */
 .story-opening h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -65,7 +72,7 @@ button {
     padding: 10px 20px;
     margin: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -80,9 +87,11 @@ button:hover {
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
-.option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
+.option-two-end,
+.road-stranger-option-two,
+.road-stranger-option-one {
+    background-color: grey;
+    border: 10px solid lightblue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -93,7 +102,9 @@ button:hover {
 .option-one-screen img,
 .option-two-screen img,
 .option-one-end img,
-.option-two-end img {
+.option-two-end img,
+.road-stranger-option-two,
+.road-stranger-option-one img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -103,7 +114,41 @@ button:hover {
 .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
-.option-two-end h1 {
-    font-size: 20px;
+.option-two-end h1,
+.road-stranger-option-two,
+.road-stranger-option-one {
+    font-size: 25px;
     margin-bottom: 20px;
+}
+body {
+    background-color: black;
+}
+
+.woods-person{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.street-figure{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.peter-gif{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.good-job{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.gaming{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1{
+    font-size: 25px;
 }
